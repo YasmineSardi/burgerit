@@ -249,6 +249,14 @@ textarea {
         position: relative;
 	}
 
+    .logo {
+        height: 80px;
+        width: 80px;
+        background-image: url('../img/Logo.png');
+        background-size: cover;
+        overflow: hidden;
+    }
+
     .scroller {
         position: absolute;
         bottom: 30px;
