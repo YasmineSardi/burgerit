@@ -415,6 +415,16 @@ textarea {
 		padding: 0;
 		color: #7a8f9f;
 	}
+
+@media screen and (max-width: 767px){
+    footer {
+        text-align: center;
+    }
+    
+    footer .col-md-2 {
+        margin-bottom: 15px;
+    }
+}
 	
 	footer ul a {
 		color: #7a8f9f;
@@ -460,6 +470,18 @@ textarea {
 
 .hidden {
     display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+    .no-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .no-desktop {
+        display: none;
+    }
 }
 
 /*
